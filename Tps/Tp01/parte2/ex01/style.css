@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  gap: 20px;
+  padding:0 20px;
+  justify-content: space-between;
+}
+div{
+    width: 120px;
+    height: 140px;
+    border:1px solid black;
+}
+body div:first-child{
+    background-color:yellow;
+}
+body div:nth-child(2){
+    background-color:blue;
+}
+body div:nth-child(3){
+    background-color:green;
+}
+body div:nth-child(4){
+    background-color:red;
+}
